@@ -6,10 +6,12 @@ y_values = [x**2 for x in x_values]
 plt.scatter(x_values, y_values, s=40)
 plt.axis([0, 1100, 0, 1100000])
 
+print("Hola Mundo!")
+
 for i in range (1000):
     print ("x: " + str(x_values[i]) + " y: " + str(y_values[i]))
 
-print(a)
+
 # Set chart title and label axes.
 
 plt.title("Square Numbers", fontsize=24)
