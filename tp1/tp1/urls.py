@@ -20,5 +20,5 @@ from tp1.views import holamundo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('caca/', holamundo),
+    path('templates/', holamundo),
 ]
